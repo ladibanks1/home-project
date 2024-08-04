@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body class="bg-white font-spartan">
+    <main class="p-5">
+          <div class="shadow-xl shadow-gray-300">
+              <div class="flex flex-col xl:grid xl:grid-cols-2">
+                <section class="nav relative">
+                  <img
+                    id="slide"
+                    src="../assets/images/desktop-image-hero-1.jpg"
+                    alt="A chair and a table"
+                    class="w-full"
+                  />
+                  <div class="absolute right-0 md:-right-32 bottom-0">
+                    <div class="bg-black w-32 h-16 flex justify-between p-5 rounded">
+                      <button id="left-click" value="slide-three">
+                        <svg width="14" height="24" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M13 0L1 12l12 12"
+                            stroke="#FFF"
+                            fill="none"
+                            fill-rule="evenodd"
+                          />
+                        </svg>
+                      </button>
+                      <button id="right-click" value="slide-two">
+                        <svg width="14" height="24" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M1 0l12 12L1 24"
+                            stroke="#FFF"
+                            fill="none"
+                            fill-rule="evenodd"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                  <nav class="absolute top-10 left-10" id="nav">
+                    <div class="hidden cursor-pointer " id="hambuger-icon">
+                        <svg width="20" height="14" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M20 12v2H0v-2h20zm0-6v2H0V6h20zm0-6v2H0V0h20z"
+                            fill="#000"
+                            fill-rule="evenodd"
+                          />
+                        </svg>
+                      </div>
+                      <div id="nav-item" class="text-white">
+                        <div id="close" class=" xs:relative -left-16 top-5 cursor-pointer hidden">
+                            <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M14.364.222l1.414 1.414L9.414 8l6.364 6.364-1.414 1.414L8 9.414l-6.364 6.364-1.414-1.414L6.586 8 .222 1.636 1.636.222 8 6.586 14.364.222z" fill="#000" fill-rule="evenodd" opacity=".201"/></svg>
+                        </div>
+                    <p class="inline me-10 text-2xl" id="name">room</p>
+                    <li class="list-none inline mx-3"><a href="" class="text-sm hover:border-b-2 md:hover:border-b-white hover:border-b-black hover:pb-2">home</a></li>
+                    <li class="list-none inline mx-3"><a href="" class="text-sm hover:border-b-2 md:hover:border-b-white hover:border-b-black hover:pb-2">shop</a></li>
+                    <li class="list-none inline mx-3"><a href="" class="text-sm hover:border-b-2 md:hover:border-b-white hover:border-b-black hover:pb-2">about</a></li>
+                    <li class="list-none inline mx-3"><a href="" class="text-sm hover:border-b-2 md:hover:border-b-white hover:border-b-black hover:pb-2">contact</a></li>
+                </div>
+                  </nav>
+                </section>
+                <section class=" p-7 xl:px-28 xl:py-20">
+                  <h2 id="slide-topic" class="font-extrabold text-4xl mb-7">Discover innovative ways to decorate</h2>
+                  <p id="slide-text" class="text-gray-400 text-sm">
+                    We provide unmatched quality, comfort, and style for property owners
+                    across the country. Our experts combine form and function in
+                    bringing your vision to life. Create a room in your own style with
+                    our collection and make your property a reflection of you and what
+                    you love.
+                  </p>
+                  <button class="btn font-semibold mt-5">SHOP NOW <svg  class="inline" width="40" height="12" xmlns="http://www.w3.org/2000/svg"><path d="M34.05 0l5.481 5.527h.008v.008L40 6l-.461.465v.063l-.062-.001L34.049 12l-.662-.668 4.765-4.805H0v-1h38.206l-4.82-4.86L34.05 0z" fill="#000" fill-rule="nonzero"/></svg></button>
+                </section>
+              </div>
+              <div class="flex flex-col md:grid md:grid-cols-3 ">
+                <section>
+                  <img src="../assets/images/image-about-dark.jpg" alt="A chair" />
+                </section>
+                <section class=" p-5 xl:p-10 ">
+                  <h3 class="font-bold">About our furniture</h3>
+                  <p class="text-gray-400 leading-7 text-sm">
+                    Our multifunctional collection blends design and function to suit
+                    your individual taste. Make each room unique, or pick a cohesive
+                    theme that best express your interests and what inspires you. Find
+                    the furniture pieces you need, from traditional to contemporary
+                    styles or anything in between. Product specialists are available to
+                    help you create your dream space.
+                  </p>
+                </section>
+                <section>
+                  <img
+                    src="../assets/images/image-about-light.jpg"
+                    alt="A chair in white background"
+                  />
+                </section>
+              </div>
+          </div>
+    </main>
+    <script src="../js/index.js"></script>
+  </body>
+</html>

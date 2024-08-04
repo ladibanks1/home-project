@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+@layer base {
+  body {
+    background: linear-gradient(180%, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  }
+  section div{
+    @apply  text-center w-56 h-80 rounded-xl p-5  my-3 md:m-0
+  }
+  .top-border{
+    border-top-width: 1px ;
+    @apply  border-slate-300 w-full
+  }
+}
+@layer utilities {
+    .mid{
+        background: linear-gradient(300deg , hsl(237, 63%, 64%) 20% ,hsl(236, 72%, 79%) 70% );
+    } 
+    .button{
+        @apply w-full bg-blue-150 p-2 rounded-md mt-10 hover:bg-white font-bold text-sm hover:border-2 hover:border-blue-150 hover:text-blue-150;
+    };
+    .mid button{
+        @apply w-full bg-white p-2 rounded-md text-blue-150 hover:bg-blue-150 font-bold text-sm hover:border-2 hover:border-white hover:text-white mt-12
+}
+.benefits{
+  @apply text-sm font-bold my-2
+}
+}
+
+

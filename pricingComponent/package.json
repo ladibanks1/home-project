@@ -1,0 +1,15 @@
+{
+  "name": "pricing-component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css" : "tailwindcss -i ./css/style.src.css -o ./css/style.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.4.7"
+  }
+}
